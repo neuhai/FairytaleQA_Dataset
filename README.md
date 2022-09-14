@@ -43,19 +43,19 @@ We provide two different categorizations for the FairytaleQA dataset:
 Each story has two corresponding files, ```[storyname]-story.csv``` contains the story content where each line is a story section defined by the education experts; and ```[storyname]-questions.csv``` contains experts-generated QA-pairs. 
 
 ```[storyname]-story.csv``` has two columns:
- - 'section': story section id 
- - 'text': story section content. 
+ - **'section'**: story section id 
+ - **'text'**: story section content. 
 
 ```[storyname]-questions.csv``` has 9 useful columns:
- - 'question_id': question id 
- - 'local-or-sum': 'local' denotes the question is related to only one story section, while 'summary' denotes the question is related to multiple story sections
- - 'cor_section': related section id(s), **matching with the 'section' column in corresponding story file**
- - 'attribute1': categorized by education experts into seven narrative elements: character / setting / action / feeling / causal relationship / outcome resolution, detailed definition is described in the paper
- - 'question': the question content
- - 'ex-or-im1': 'explicit' denotes the answer can be found in the story content, while 'implicit' denotes the answer require high-level summarization
- - 'answer1': the 1st answer  (available in all splits)
- - 'answer4': the 2nd answer by another annotator (only available in storys in test / val splits)
- - 'ex-or-im2': similar to 'ex-or-im1', but annotated by another annotator (only available in storys in test / val splits)
+ - **'question_id'**: question id 
+ - **'local-or-sum'**: 'local' denotes the question is related to only one story section, while 'summary' denotes the question is related to multiple story sections
+ - **'cor_section'**: related section id(s), **matching with the 'section' column in corresponding story file**
+ - **'attribute1'**: categorized by education experts into seven narrative elements: character / setting / action / feeling / causal relationship / outcome resolution, detailed definition is described in the paper
+ - **'question'**: the question content
+ - **'ex-or-im1'**: 'explicit' denotes the answer can be found in the story content, while 'implicit' denotes the answer require high-level summarization
+ - **'answer1'**: the 1st answer  (available in all splits)
+ - **'answer4'**: the 2nd answer by another annotator (only available in storys in test / val splits)
+ - **'ex-or-im2'**: similar to 'ex-or-im1', but annotated by another annotator (only available in storys in test / val splits)
 
 
 In addition to the original FairytaleQA dataset, we also provide stories split by sentences in ```FairytaleQA_Dataset_Sentence_Split```. This sub-folder follow the same structure as the sub-folder for the original dataset, except that it only contains the story csv files.
