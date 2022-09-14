@@ -52,7 +52,7 @@ Each story has two corresponding files, ```[storyname]-story.csv``` contains the
  - 'ex-or-im1': 'explicit' denotes the answer can be found in the story content, while 'implicit' denotes the answer require high-level summarization
  - 'answer1': the 1st answer  (available in all splits)
  - 'answer4': the 2nd answer by another annotator (only available in storys in test / val splits)
- - 'ex-or-im2': similar to 'ex-or-im1', but annotated by another annotator
+ - 'ex-or-im2': similar to 'ex-or-im1', but annotated by another annotator (only available in storys in test / val splits)
 
 
 In addition to the original FairytaleQA dataset, we also provide stories split by sentences in ```FairytaleQA_Dataset_Sentence_Split```. This sub-folder follow the same structure as the sub-folder for the original dataset, except that it only contains the story csv files.
