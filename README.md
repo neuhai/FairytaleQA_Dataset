@@ -66,3 +66,8 @@ In addition to the original FairytaleQA dataset, we also provide stories split b
 1. [```Fantastic Questions and Where to Find Them: FairytaleQA – An Authentic Dataset for Narrative Comprehension```](https://aclanthology.org/2022.acl-long.34/) **(Accepted to ACL 2022)** proposed the FairytaleQA dataset with details about the annotation process and baseline benchmark experiments on Question-Answering as well as Question Generation. The code repository for baseline experiments can be found here: https://github.com/WorkInTheDark/FairytaleQA_Baseline
 
 2. [```It is AI’s Turn to Ask Humans a Question: Question-Answer Pair Generation for Children’s Story Books```](https://aclanthology.org/2022.acl-long.54/) **(Accepted to ACL 2022)** built an automated Question-Answer Generation (QAG) system upon the FairytaleQA dataset. The code repository for the QAG system can be found here: https://github.com/WorkInTheDark/FairytaleQA_QAG_System
+
+## Todo
+ - [x] Add FairytaleQA Dataset with two different categorizations
+ - [x] Add sentence-level stories
+ - [ ] Add basic pre-processing script
