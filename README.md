@@ -36,6 +36,9 @@ This is the repository for the FairytaleQA dataset, an open-source dataset focus
 We provide two different categorizations for the FairytaleQA dataset: 
  - **split by origin**, where the stories are categorized by their cultural origins
  - **split for training**, where the stories are split into train/test/val splits 
+     - train split: 232 books with 8548 QA-pairs
+     - val split: 23 books with 1025 QA-pairs
+     - test split: 23 books with 1007 QA-pairs
 
 Each story has two corresponding files, ```[storyname]-story.csv``` contains the story content where each line is a story section defined by the education experts; and ```[storyname]-questions.csv``` contains experts-generated QA-pairs. 
 
