@@ -2,7 +2,7 @@
 ## Overview
 This is the repository for the FairytaleQA dataset, an open-source dataset focusing on comprehension of narratives, targeting students from kindergarten to eighth grade. The FairytaleQA dataset is annotated by education experts based on an evidence-based theoretical framework. It consists of 10,580 explicit and implicit questions derived from 278 children-friendly stories, covering seven types of narrative elements or relations. 
 
-Ps. This is the backup repository for the dataset. In chance the original repo for hte dataset is not available: https://github.com/uci-soe/FairytaleQAData 
+Ps. This is the backup repository for the dataset. In case the original repo for the dataset is not available: https://github.com/uci-soe/FairytaleQAData 
 
 ## Repository Structure
 ```bash
