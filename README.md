@@ -4,6 +4,36 @@ This is the repository for the FairytaleQA dataset, an open-source dataset focus
 
 Ps. This is the backup repository for the dataset. In case the original repo for the dataset is not available: https://github.com/uci-soe/FairytaleQAData 
 
+## Fast Usage for NLP tasks with [datasets](https://github.com/huggingface/datasets) library
+The dataset is uploaded to Huggingface Hub: https://huggingface.co/datasets/WorkInTheDark/FairytaleQA
+```
+from datasets import load_dataset
+dataset = load_dataset("WorkInTheDark/FairytaleQA")
+
+'''
+DatasetDict({
+    train: Dataset({
+        features: ['story_name', 'story_section', 'question', 'answer1', 'answer2', 'local-or-sum', 'attribute', 'ex-or-im', 'ex-or-im2'],
+        num_rows: 8548
+    })
+    validation: Dataset({
+        features: ['story_name', 'story_section', 'question', 'answer1', 'answer2', 'local-or-sum', 'attribute', 'ex-or-im', 'ex-or-im2'],
+        num_rows: 1025
+    })
+    test: Dataset({
+        features: ['story_name', 'story_section', 'question', 'answer1', 'answer2', 'local-or-sum', 'attribute', 'ex-or-im', 'ex-or-im2'],
+        num_rows: 1007
+    })
+})
+'''
+```
+
+To load ```train/test/valid``` split: 
+```
+from datasets import load_dataset
+dataset = load_dataset("WorkInTheDark/FairytaleQA", split='train')
+```
+
 ## Repository Structure
 ```bash
 
@@ -72,5 +102,4 @@ In addition to the original FairytaleQA dataset, we also provide stories split b
 ## Todo
  - [x] Add FairytaleQA Dataset with two different categorizations
  - [x] Add sentence-level stories
- - [ ] Add basic pre-processing script
- - [ ] Upload dataset to Huggingface Hub
+ - [x] Upload dataset to Huggingface Hub
