@@ -73,3 +73,4 @@ In addition to the original FairytaleQA dataset, we also provide stories split b
  - [x] Add FairytaleQA Dataset with two different categorizations
  - [x] Add sentence-level stories
  - [ ] Add basic pre-processing script
+ - [ ] Upload dataset to Huggingface Hub
